@@ -9,7 +9,7 @@ html{
 .header{
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.75),rgba(4,9,30,0.3)),url(images/uni.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.75),rgba(4,9,30,0.3)),url(images/Landing.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -21,7 +21,7 @@ nav{
   align-items: center;
 }
 nav img{
-  width:40%;
+  width:20%;
 }
 .nav-links{
   flex: 1;
@@ -93,22 +93,6 @@ body {
   cursor: pointer;
   border-radius: 10px;
 }
-.twitter{
-  color: #00acee;
-  font-size: 40px;
-  width: 150px;
-  text-decoration: none;
-  padding: 10px;
-  position: relative;
-  top: 25px;
-  transition: 0.8s;
-}
-.twitter:hover{
-    color: #0078a6;
-    font-size: 30px;
-    width: 150px;
-    transition: 0.8s;
-}
 .linkedin{
   color: #0072b1;
   font-size: 40px;
@@ -122,22 +106,6 @@ body {
   color: #004f7b;
   font-size: 30px;
   transition: 0.8s;
-}
-.youtube{
-    color: #FF0000;
-    font-size: 40px;
-    width: 150px;
-    text-decoration: none;
-    padding: 10px;
-    position: relative;
-    top: 25px;
-    transition: 0.8s;
-}
-.youtube:hover{
-    color: #b20000;
-    font-size: 30px;
-    width: 150px;
-    transition: 0.8s;
 }
 .outlook{
     color: #ffc000;
@@ -155,23 +123,7 @@ body {
     width: 150px;
     transition: 0.8s;
 }
-.github{
-    color: #171515;
-    font-size: 40px;
-    width: 150px;
-    transition: 0.8s;
-    text-decoration: none;
-    padding: 10px;
-    position: relative;
-    top: 25px;
-}
-.github:hover{
-    color: #2e2c2c;
-    font-size: 30px;
-    width: 150px;
-    transition: 0.8s;
-}
-.About-me{
+.About-us{
   width: 60%;
   margin: auto;
   text-align: center;
@@ -196,126 +148,15 @@ p{
   font-size: 140%;
   margin-bottom: 3%;
 }
-.FLFP{
-  margin-left: 10%;
-  width: 35%;
-}
-.FLF{
-  margin-right: 10%;
-  margin-left: 2%;
-  width: 40%;
-  display: inline-block;
-  text-decoration: none;
-  background-color: #59C4BE;
-  position: relative;
-}
-.FLF p{
-  color: #fff;
-  padding-top: 1%;
-  padding-left: 2%;
-  padding-bottom: 2%
-}
-.FLF h2{
-  color: #fff;
-  padding-top: 2%;
-  padding-left: 1.2%;
-  font-size: 180%;
-}
-.FLF h3{
-  color: #fff;
-  padding-top: 2%;
-  padding-left: 1.2%;
-  font-size: 140%;
-}
-.FLF h4{
-  color: #fff;
-  padding-left: 1.2%;
-  font-size: 120%;
-}
-.ME18{
-  margin-top: 5%;
-  margin-left: 10%;
-  width: 35%;
-}
-.ME{
-  margin-top: 5%;
-  margin-right: 10%;
-  margin-left: 2%;
-  width: 40%;
-  display: inline-block;
-  text-decoration: none;
-  background-color: #59C4BE;
-  position: relative;
-}
-.ME p{
-  color: #fff;
-  padding-left: 2%;
-  padding-bottom: 2%
-}
-.ME h2{
-  color: #fff;
-  padding-top: 2%;
-  padding-left: 1.2%;
-  font-size: 180%;
-}
-.ME h3{
-  color: #fff;
-  padding-top: 2%;
-  padding-left: 1.2%;
-  font-size: 140%;
-}
-.ME h4{
-  color: #fff;
-  padding-left: 1.2%;
-  font-size: 120%;
-}
-.Watersideheights{
-  margin-left: 10%;
-  width: 35%;
-  margin-top: 5%;
-}
-.PDR{
-  margin-top: 5%;
-  margin-right: 10%;
-  margin-left: 2%;
-  width: 40%;
-  display: inline-block;
-  text-decoration: none;
-  background-color: #59C4BE;
-  position: relative;
-}
-.PDR p{
-  color: #fff;
-  padding-left: 2%;
-  padding-bottom: 2%
-}
-.PDR h2{
-  color: #fff;
-  padding-top: 2%;
-  padding-left: 1.2%;
-  font-size: 180%;
-}
-.PDR h3{
-  color: #fff;
-  padding-top: 2%;
-  padding-left: 1.2%;
-  font-size: 140%;
-}
-.PDR h4{
-  color: #fff;
-  padding-left: 1.2%;
-  font-size: 120%;
-}
 .Projects{
   width: 100%;
-  margin-top: 4%;
+  margin-top: 1%;
 }
 .Projectsheader h2{
   color: #59C4BE;
   font-size: 140%;
   margin-bottom: 2%;
 }
-
 .image-grid{
 --gap: 3%;
 --num-cols: 4;
